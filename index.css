@@ -1,0 +1,139 @@
+@import url(/styles.css);
+
+/* Banner */
+
+.carousel-item img {
+  height: 500px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensure the image covers the area */
+}
+
+@media (max-width: 767.98px) {
+  .carousel-item img {
+      height: 450px; /* Adjust the height for mobile devices */
+  }
+}
+
+/* Text 1 */
+
+#bn-01 {
+  padding: 2vw;
+  max-width: 100%;
+  margin: 0;
+  font-size: 1.65rem;
+  color: var(--light);
+  background-color: var(--blue2);
+  font-family: var(--fonte-paragrafo);
+}
+
+#bn-01 p {
+  padding: 0 5vw;
+}
+
+#bn-01 h1 {
+  margin: 0 0 3vw 0;
+}
+
+/* Plans */
+
+.carousel-item img {
+  width: 30%;
+  object-fit: cover;
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
+}
+
+@media (max-width: 767.98px) {
+  .carousel-item img {
+    width: 75%;
+  }
+}
+
+/* .carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+} */
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.thumbnails img {
+  width: 12vw;
+  height: 10vw;
+  margin: 2vw;
+  cursor: pointer;
+  border-radius: 5px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.thumbnails img.active,
+.thumbnails img:hover {
+  opacity: 1;
+}
+
+.caption-container {
+  text-align: center;
+  margin-top: .8vw;
+  margin-bottom: 3vw;
+  font-size: 1.5rem;
+  color: var(--blue1);
+  font-family: var(--fonte-paragrafo);
+}
+
+/* Gallery */
+
+#gl-bn {
+  background-color: var(--blue3);
+  margin-top: 1.5vw;
+}
+
+#gl-bn h1{
+  text-align: center;
+  font-family: var(--fonte-titulo);
+  color: var(--blue1);
+  text-transform: uppercase;
+  padding: 1.5vw 0;
+}
+
+.tx-bn {
+  text-align: center;
+  font-family: var(--fonte-titulo);
+  color: var(--blue1);
+  text-transform: uppercase;
+  padding: 1.5vw 0;
+}
+
+.gallery img {
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+/* Buttom */
+
+.btn-saiba-mais {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  font-family: var(--fonte-paragrafo);
+  text-transform: uppercase;
+  background-color: var(--blue1);
+  color: var(--light);
+}
+
+.btn-saiba-mais:hover {
+  border-color: var(--blue1);
+  color: var(--blue1);
+  background-color: var(--light);
+  }

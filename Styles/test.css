@@ -1,0 +1,132 @@
+@import url(/styles.css);
+
+#tx-bn {
+  text-align: center;
+  font-family: var(--fonte-titulo);
+  color: var(--blue1);
+  text-transform: uppercase;
+  padding: 1.5vw 0;
+  margin-top: 2vw;
+}
+
+.plan {
+  background-color: var(--blue1);
+  color: var(--light);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: var(--fonte-paragrafo);
+  font-size: 1.3rem;
+}
+
+.question-page {
+  display: none;
+}
+.question-page.active {
+  display: block;
+}
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Form */
+#quizForm {
+  padding: 0 15vw;
+  margin: 3.5vw 0;
+}
+
+/* Estilo personalizado para o modal */
+.modal-custom {
+  background: linear-gradient(135deg, #091f8f, #6cabc4);
+  color: white;
+  border-radius: 15px;
+}
+.modal-custom .modal-header {
+  border-bottom: none;
+  padding: 20px;
+}
+.modal-custom .modal-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.modal-custom .modal-body {
+  padding: 20px;
+  text-align: center;
+}
+.modal-custom .modal-footer {
+  border-top: none;
+  padding: 20px;
+  justify-content: center;
+}
+.modal-custom .result-level {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px 0;
+  color: var(--dark);
+}
+.modal-custom .result-description {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+.modal-custom .progress-bar-custom {
+  background-color: var(--light);
+  height: 10px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.modal-custom .progress-bar-custom .progress {
+  background-color: #ff3860;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.mb-3{
+  font-family: var(--fonte-titulo);
+  color: var(--blue1);
+  font-size: 1.5rem;
+}
+
+.btn-seguir {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  font-family: var(--fonte-paragrafo);
+  text-transform: uppercase;
+  background-color: var(--blue1);
+  color: var(--light);
+}
+
+.btn-seguir:hover {
+border-color: var(--blue1);
+color: var(--blue1);
+}
+
+.btn-enviar {
+  margin: auto;
+  width: 15rem;
+  padding: 10px 30px;
+  font-size: 1.35rem;
+  border-radius: 50px;
+  font-family: var(--fonte-paragrafo);
+  text-transform: uppercase;
+  border-color: var(--dark);
+  color: var(--dark);
+}
+
+.btn-enviar:hover {
+background-color: var(--blue3);
+color: var(--light);
+}
+
+/* Responsive */
+
+@media (max-width: 767.98px) {
+  #quizForm {
+    padding: 0 1vw;
+    margin: 1.5vw 0;
+  }
+}

@@ -1,0 +1,126 @@
+/* Custom styles */
+:root {
+  --light: #fbf7ed;
+  --light-a: #fbf7edbb;
+  --blue1: #091f8f;
+  --blue2: #264097;
+  --blue3: #6cabc4;
+  --dark: #141118;
+  --shades: #dad2d8;
+  --letter: #333333;
+
+  --fonte-titulo: "Jost", serif;
+  --fonte-paragrafo: "Dosis", sans-serif;
+}
+
+body {
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  background-color: var(--light);
+  color: #333;
+}
+
+/* Menu */
+#menu {
+  font-family: var(--fonte-titulo);
+  color: var(--light);
+  background-color: var(--blue1);
+  flex-wrap: nowrap;
+}
+
+#logo-img {
+  max-width: 20%;
+  outline: none; /* Remove focus outline */
+  box-shadow: none; /* Remove focus shadow */
+}
+
+@media (max-width: 768px) {
+  #logo-img {
+      max-width: 50%; /* Full width on small screens */
+  }
+}
+
+.navbar-nav {
+  flex-wrap: nowrap; /* Prevent wrapping */
+  overflow-x: auto; /* Add horizontal scroll if needed */
+  white-space: nowrap; /* Keep items in a single line */
+}
+
+.nav-link{
+  font-family: var(--fonte-titulo);
+  color: var(--light);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 1vw;
+}
+
+.nav-link:hover{
+  color: var(--blue3);
+  text-decoration: underline;
+}
+
+/* Navbar Toggler Button Animation */
+.navbar-toggler {
+  border: none; /* Remove default border */
+  padding: 0.5rem;
+  transition: transform 0.3s ease; /* Smooth transition */
+  background-color: rgba(255, 255, 255, 0.1); /* Light background */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.navbar-toggler:focus {
+  outline: none; /* Remove focus outline */
+  box-shadow: none; /* Remove focus shadow */
+}
+
+/* Hamburger Icon */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  transition: background-image 0.3s ease; /* Smooth transition */
+}
+
+/* Close Icon (when menu is expanded) */
+.navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 4l24 24M4 28l24-24'/%3E%3C/svg%3E");
+}
+
+/* Rotate the Toggler Button (optional) */
+.navbar-toggler[aria-expanded='true'] {
+  transform: rotate(90deg); /* Rotate the button */
+}
+
+/* Footer */
+#sm-bn {
+  padding-top: 1vw;
+  margin: 0 auto 1vw auto; /* Center the content horizontally */
+  max-width: 100%;
+  font-size: 1.25rem;
+  color: var(--blue3);
+  font-family: var(--fonte-paragrafo);
+  text-align: center;
+}
+
+#sm-bn img {
+  max-width: 3%;
+  text-align: center;
+  margin: 0 3vw;
+}
+
+#sm-bn a {
+  text-decoration: none;
+}
+
+.p-row {
+  margin-top: 2vw;
+  line-height: 1rem;
+}
+
+@media (max-width: 767.98px) {
+  #sm-bn img {
+    max-width: 12%;
+    text-align: center;
+    margin: 0 1vw;
+  }
+}
+

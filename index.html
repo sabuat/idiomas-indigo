@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idiomas Indigo</title>
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS (optional) -->
+    <link rel="stylesheet" href="/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Jost:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link 
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="menu" class="navbar navbar-expand-lg">
+      <div class="container">
+        <a href="/">
+          <img id="logo-img" src="./images/Logo.png" alt="logomarca"> <!-- Add id="logo-img" -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/" id="nav-home">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/plans.html" id="nav-plans">Planos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/paths.html" id="nav-paths">Trilhas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/test.html" id="nav-test">Teste Seu Inglês</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog" id="nav-blog">Blog</a>
+            </li>
+          </ul>
+          <button class="btn btn-outline-light ms-2" id="language-toggle">Español</button>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Carousel for PC -->
+    <div id="carouselPC" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <!-- Image 1 -->
+          <div class="carousel-item active">
+              <a href="https://wa.me/c/5511945267469" target="_blank">
+                  <img src="/images/Banner/Carrousel 1.png" class="d-block w-100" alt="PC Image 1">
+              </a>
+          </div>
+          <!-- Image 2 -->
+          <div class="carousel-item">
+              <a href="https://wa.me/c/5511945267469" target="_blank">
+                  <img src="/images/Banner/Carrousel 2.png" class="d-block w-100" alt="PC Image 2">
+              </a>
+          </div>
+          <!-- Image 3 -->
+          <div class="carousel-item">
+              <a href="https://wa.me/c/5511945267469" target="_blank">
+                  <img src="/images/Banner/Carrousel 3.png" class="d-block w-100" alt="PC Image 3">
+              </a>
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselPC" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselPC" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+  
+  <!-- Carousel for Mobile -->
+  <div id="carouselMobile" class="carousel slide d-block d-md-none" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <!-- Image 1 -->
+          <div class="carousel-item active">
+              <a href="https://wa.me/c/5511945267469" target="_blank">
+                  <img src="/images/Banner/Small 1.png" class="d-block w-100" alt="Mobile Image 1">
+              </a>
+          </div>
+          <!-- Image 2 -->
+          <div class="carousel-item">
+              <a href="https://wa.me/c/5511945267469" target="_blank">
+                  <img src="/images/Banner/Small 2.png" class="d-block w-100" alt="Mobile Image 2">
+              </a>
+          </div>
+          <!-- Image 3 -->
+          <div class="carousel-item">
+              <a href="https://wa.me/c/5511945267469" target="_blank">
+                  <img src="/images/Banner/Small 3.png" class="d-block w-100" alt="Mobile Image 3">
+              </a>
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselMobile" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselMobile" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+
+    <!-- Home Section -->
+    <div id="bn-01" class="container text-center">
+      <div class="row">
+        <p id="text-01">
+          Aprender Inglês pelo WhatsApp é a solução perfeita para quem busca praticidade e flexibilidade. Com aulas personalizadas e no seu ritmo, você pode estudar de qualquer lugar, a qualquer hora. Além disso, o contato direto com o professor via mensagens permite tirar dúvidas instantaneamente e receber feedbacks rápidos. É a maneira mais moderna e eficiente de dominar o Inglês sem sair de casa!
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Plans Section -->
+    <div class="container mt-4">
+      <div class="row">
+        <h1 class="tx-bn">Os Mais Buscados</h1>
+      </div>
+      <!-- Carousel -->
+      <div id="overlapCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <!-- Image 1 -->
+              <div class="carousel-item active">
+                  <img src="/images/Planes/Plan 1.png" class="d-block" alt="Image 1">
+              </div>
+              <!-- Image 2 -->
+              <div class="carousel-item">
+                  <img src="/images/Planes/Plan 3.png" class="d-block" alt="Image 2">
+              </div>
+              <!-- Image 3 -->
+              <div class="carousel-item">
+                  <img src="/images/Planes/Plan 5.png" class="d-block" alt="Image 3">
+              </div>
+              <!-- Image 4 -->
+              <div class="carousel-item">
+                  <img src="/images/Planes/Plan 6.png" class="d-block" alt="Image 4">
+              </div>
+              <!-- Image 5 -->
+              <div class="carousel-item">
+                  <img src="/images/Planes/Plan 7.png" class="d-block" alt="Image 5">
+              </div>
+          </div>
+          <!-- Carousel Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#overlapCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#overlapCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+  
+      <!-- Thumbnails -->
+      <div class="thumbnails">
+          <img src="/images/Planes/Plan 1.png" class="demo cursor active" onclick="currentSlide(0)" alt="Plan Indigo Mini">
+          <img src="/images/Planes/Plan 3.png" class="demo cursor" onclick="currentSlide(1)" alt="Plan Indigo Light">
+          <img src="/images/Planes/Plan 5.png" class="demo cursor" onclick="currentSlide(2)" alt="Plan Intenso Regular">
+          <img src="/images/Planes/Plan 6.png" class="demo cursor" onclick="currentSlide(3)" alt="Plan Intensivo Light">
+          <img src="/images/Planes/Plan 7.png" class="demo cursor" onclick="currentSlide(4)" alt="Plan Intensivo Plus">
+      </div>
+  
+      <!-- Caption -->
+      <div class="caption-container">
+          <p id="caption">Plan Indigo Mini</p>
+      </div>
+  </div>
+
+    <!-- Paths Section -->
+    <div id="gl-bn">
+      <div class="container mt-4">
+        <div class="row">
+          <h1>Nossos planos de estudo</h1>
+        </div>
+        <div class="row gallery">
+            <!-- Image 1 -->
+            <div class="col-md-4 mb-4">
+              <a target="_blank">
+                <img src="/images/Planes/Instagram post - 1.png" class="img-fluid" alt="Image 1">
+              </a>
+            </div>
+            <!-- Image 2 -->
+            <div class="col-md-4 mb-4">
+                <img src="/images/Planes/Instagram post - 2.png" class="img-fluid" alt="Image 2">
+            </div>
+            <!-- Image 3 -->
+            <div class="col-md-4 mb-4">
+                <img src="/images/Planes/Instagram post - 3.png" class="img-fluid" alt="Image 3">
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Test Section -->
+    <div id="bn-01" class="container text-center">
+      <div class="row">
+        <h1>Descobra seu nivel de Inglês</h1>
+      </div>
+      <div class="row">
+        <p id="text-01">
+          Que tal descobrir seu nível de inglês de forma rápida e prática? Com um teste de avaliação simples, você pode entender exatamente onde está e como melhorar sua fluência. Sem sair de casa, você poderá identificar suas forças e áreas para desenvolvimento, tudo no seu ritmo. 
+        </p>
+        <p id="text-01">
+          Faça o teste agora e comece a trilhar seu caminho para dominar o inglês!
+        </p>
+        <div class="text-center">
+          <a href="./Pages/test.html" class="btn btn-saiba-mais">Faça o Test agora</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-5 bg-light">
+        <div class="container">
+            <h2 id="blog-title" class="text-center">Blog</h2>
+            <p id="blog-text" class="text-center">Dicas e artigos para melhorar o seu inglês.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <div id="sm-bn" class="container text-center">
+        <div class="row">
+          <p>Fique por dentro das novidades e acompanhe nosso conteúdo nas redes sociais.</p>
+          <div class="row justify-content-center">
+            <div class="social-links">
+              <a href="#" target="_blank" aria-label="Spotify" class="m-2">
+                <img src="./images/Redes/spotify.png" alt="Spotify" class="img-fluid">
+              </a>
+              <a href="https://www.tiktok.com/@literatura.com.sotaque" target="_blank" aria-label="Tiktok" class="m-2">
+                <img src="./images/Redes/tiktok.png" alt="Tiktok" class="img-fluid">
+              </a>
+              <a href="https://www.instagram.com/idiomas.indigo/" target="_blank" aria-label="Instagram" class="m-2">
+                <img src="./images/Redes/instagram.png" alt="Instagram" class="img-fluid">
+              </a>
+              <a href="https://www.threads.net/@idiomas.indigo" target="_blank" aria-label="Threads" class="m-2">
+                <img src="./images/Redes/threads.png" alt="Threads" class="img-fluid">
+              </a>
+              <a href="https://www.youtube.com/@com_sotaque" target="_blank" aria-label="YouTube" class="m-2">
+                <img src="./images/Redes/youtube.png" alt="YouTube" class="img-fluid">
+              </a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="p-row row">
+          <p>&copy; 2025 Urbina Serviços LTDA</p>
+          <p>Todos os direitos reservados</p>
+        </div>
+      </div> 
+    </footer>
+
+    <!-- Bootstrap JS and Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

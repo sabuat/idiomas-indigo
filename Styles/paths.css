@@ -1,0 +1,188 @@
+@import url(/styles.css);
+
+/* Texto */
+
+.ct-gr{
+  background-color: var(--light);
+  color: var(--letter);
+  font-family: var(--fonte-paragrafo);
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 2vw 20vw;
+}
+  
+.ct-gr h1, h2 {
+  color: var(--blue1);
+  font-family: var(--fonte-titulo);
+}
+  
+.cx-tx {
+  margin: 2vw 0;
+  color: var(--light);
+}
+
+.cx-tv {
+  margin: 2vw 0;
+  color: var(--letter);
+}
+  
+.plan {
+  background-color: var(--blue1);
+  border-radius: 10px;
+  padding: 2vw 1vw;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta {
+  font-weight: bold;
+  color: var(--letter);
+}
+  
+.bn-pt {
+  color: var(--light);
+  font-family: var(--fonte-paragrafo);
+  font-size: 1.25rem;
+  margin: 3vw 0;
+  padding: 0vw 20vw;
+} 
+
+.bn-pt h3 {
+  color: var(--light);
+  font-family: var(--fonte-titulo);
+}
+
+.plan {
+  background-color: var(--blue1);
+  border-radius: 10px;
+  padding: 2vw 1vw;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.im-pl {
+  max-width: 80%;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin: 0 auto; 
+}
+
+.btn-saiba-mais {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  font-family: var(--fonte-paragrafo);
+  text-transform: uppercase;
+  background-color: var(--light);
+  color: var(--blue1);
+}
+
+.btn-saiba-mais:hover {
+  border-color: var(--light);
+  color: var(--light);
+}
+
+.bn-plan {
+  background-color: var(--blue2);
+  color: var(--letter);
+  font-family: var(--fonte-paragrafo);
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 2vw 10vw;
+}
+  
+.bn-plan h1, h4 {
+color: var(--light);
+font-family: var(--fonte-titulo);
+}
+
+.h4-pt {
+  margin-top: 2vw;
+}
+
+/* Path individual */
+
+.plan2 {
+  background-color: var(--blue2);
+  border-radius: 10px;
+  padding: 2vw 1vw;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bn-pi {
+  color: var(--light);
+  font-family: var(--fonte-paragrafo);
+  font-size: 1.25rem;
+  margin-top: 220px;
+  padding: 0vw 10vw;
+}
+
+.tl-pi {
+  color: var(--blue1);
+  margin: 2vw;
+}
+
+.week {
+  margin-bottom: 30px;
+}
+
+.week h3 {
+  color: var(--blue3);
+}
+
+.week ul {
+  margin-top: 10px;
+}
+
+.week a{
+  color: var(--light);
+  text-decoration: none;
+}
+
+.week a:hover{
+  color: var(--blue3);
+  text-decoration: underline;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 60px; /* Adjust this value based on your navbar height */
+  left: 0;
+  right: 0;
+  background-color: white; /* Add a background color to avoid overlapping content */
+  z-index: 1000; /* Ensure it stays on top of other content */
+  padding: 10px 0; /* Add some padding for better spacing */
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  .ct-gr {
+    padding: 3vw;
+  }
+
+  .bn-pt {
+    padding: 7.5vw;
+    margin-left: 3vw;
+  }
+
+  .bn-pi{
+    padding: 7.5vw;
+    margin-top: 110px;
+    margin-left: 4vw;
+  }
+
+  .fixed-header {
+    position: fixed;
+    top: 80px; /* Adjust this value based on your navbar height */
+    left: 0;
+    right: 0;
+    background-color: white; /* Add a background color to avoid overlapping content */
+    z-index: 1000; /* Ensure it stays on top of other content */
+    padding: 3vw 0; /* Add some padding for better spacing */
+  }
+}

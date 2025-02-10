@@ -1,0 +1,79 @@
+@import url(/styles.css);
+
+
+.btn-saiba-mais {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  font-family: var(--fonte-paragrafo);
+  text-transform: uppercase;
+  background-color: var(--blue1);
+  color: var(--light);
+} 
+
+.btn-saiba-mais:hover {
+  border-color: var(--blue1);
+  color: var(--blue1);
+}
+
+/* Plans */
+
+.ct-gr{
+  background-color: var(--light);
+  color: var(--letter);
+  font-family: var(--fonte-paragrafo);
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 2vw 20vw;
+}
+
+.ct-gr h1, h2 {
+  color: var(--blue1);
+  font-family: var(--fonte-titulo);
+}
+
+.cx-tx {
+  margin: 2vw 0;
+}
+
+.plan {
+  background-color: var(--shades);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.plan h3 {
+  margin-top: 0;
+  color: var(--blue2);
+  font-family: var(--fonte-titulo);
+}
+
+.cta {
+  font-weight: bold;
+  color: var(--letter);
+}
+
+.bn-plan {
+  background-color: var(--blue2);
+  color: var(--letter);
+  font-family: var(--fonte-paragrafo);
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 2vw 20vw;
+}
+
+.bn-plan h1, h2 {
+  color: var(--light);
+  font-family: var(--fonte-titulo);
+}
+
+.text-center {
+  margin-bottom: 1.75vw;
+}
+
+.im-pl {
+  max-width: 80%;
+}
