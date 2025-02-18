@@ -91,9 +91,9 @@
   font-family: var(--fonte-paragrafo);
   font-size: 1.25rem;
   margin: 0;
-  padding: 2vw 10vw;
+  padding: 2vw 20vw;
 }
-  
+
 .bn-plan h1, h4 {
 color: var(--light);
 font-family: var(--fonte-titulo);
@@ -117,8 +117,7 @@ font-family: var(--fonte-titulo);
   color: var(--light);
   font-family: var(--fonte-paragrafo);
   font-size: 1.25rem;
-  margin-top: 220px;
-  padding: 0vw 10vw;
+  margin-top: 220px 0 0 0;
 }
 
 .tl-pi {
@@ -161,10 +160,6 @@ font-family: var(--fonte-titulo);
 /* Responsive */
 
 @media (max-width: 600px) {
-  .ct-gr {
-    padding: 3vw;
-  }
-
   .bn-pt {
     padding: 7.5vw;
     margin-left: 3vw;
@@ -173,7 +168,6 @@ font-family: var(--fonte-titulo);
   .bn-pi{
     padding: 7.5vw;
     margin-top: 110px;
-    margin-left: 4vw;
   }
 
   .fixed-header {

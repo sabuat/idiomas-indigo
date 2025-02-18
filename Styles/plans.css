@@ -10,7 +10,7 @@
   text-transform: uppercase;
   background-color: var(--blue1);
   color: var(--light);
-} 
+}  
 
 .btn-saiba-mais:hover {
   border-color: var(--blue1);
@@ -28,6 +28,12 @@
   padding: 2vw 20vw;
 }
 
+@media (max-width: 767.98px) {
+  .ct-gr{
+    padding: 2vw 8vw;
+  }
+}
+
 .ct-gr h1, h2 {
   color: var(--blue1);
   font-family: var(--fonte-titulo);
@@ -40,9 +46,15 @@
 .plan {
   background-color: var(--shades);
   border-radius: 10px;
-  padding: 20px;
+  padding: 3vw;
   margin-bottom: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767.98px) {
+  .plan{
+    padding: 2vw 4vw;
+  }
 }
 
 .plan h3 {
